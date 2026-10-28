@@ -17,7 +17,7 @@ This repository collects structured OSINT findings on significant cyber incident
 - Ransomware groups (INC, FulcrumSec, Storm, etc.)
 - State-sponsored activity (APT28)
 - Technical IOCs (IPs, domains, TTPs)
-- Risk analysis, attribution support and prevention guidance
+- Risk analysis, attribution support, prevention guidance and original methodological proposals
 
 The material is based on open-source reporting, leak-site claims, vendor statements and technical analyses available as of late October 2026.
 
@@ -30,7 +30,8 @@ The material is based on open-source reporting, leak-site claims, vendor stateme
 ├── analysis/
 │   ├── soft-underbelly-aviation-2026.md
 │   ├── unknowable-exposure-window-mag-2022-2026.md
-│   └── attribution-hunting-guide-2026.md   ← Practical attribution + hunting
+│   ├── attribution-hunting-guide-2026.md
+│   └── open-exposure-ledger-proposal.md   ← Original methodological proposal
 ├── reports/
 │   ├── 01-manchester-airports-group-fulcrumsec.md
 │   ├── 02-apt28-nato-targets.md
@@ -57,7 +58,7 @@ The material is based on open-source reporting, leak-site claims, vendor stateme
 
 ---
 
-## Featured Analyses
+## Featured Analyses & Proposals
 
 **[The Soft Underbelly of Aviation](analysis/soft-underbelly-aviation-2026.md)**  
 Systemic risk, Amadeus overlap, scorecard and prevention checklist.
@@ -66,7 +67,10 @@ Systemic risk, Amadeus overlap, scorecard and prevention checklist.
 4-year MAG key exposure timeline + public detection methodology.
 
 **[Attribution Support & Hunting Guide](analysis/attribution-hunting-guide-2026.md)**  
-Practical indicators, contact points, behavioural fingerprints and hunting recommendations for FulcrumSec, Phantom/INC affiliates and APT28 HOOKEDGE. Designed to help both attribution research and defensive prevention.
+Practical indicators and hunting recommendations for FulcrumSec, Phantom/INC and APT28.
+
+**[Open Exposure Ledger (OEL) – Methodological Proposal](analysis/open-exposure-ledger-proposal.md)**  
+Original proposal for a public, continuous, cryptographically attested mechanism to measure and record the duration of privileged secret exposure on critical infrastructure public assets. Designed to address the opacity of long exposure windows.
 
 ---
 
@@ -74,7 +78,8 @@ Practical indicators, contact points, behavioural fingerprints and hunting recom
 
 This is **open-source intelligence** for research and defensive purposes only.  
 Indicators should be validated against current telemetry.  
-No classified or non-public information is included.
+No classified or non-public information is included.  
+Methodological proposals are original contributions for discussion and are not claims of existing deployed systems.
 
 ---
 
