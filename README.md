@@ -27,8 +27,8 @@ The material is based on open-source reporting, leak-site claims, vendor stateme
 
 ```
 ├── README.md
-├── bomba/
-│   └── soft-underbelly-aviation-2026.md   ← ORIGINAL ANALYSIS (the bomb)
+├── analysis/
+│   └── soft-underbelly-aviation-2026.md   ← Original deep-dive analysis
 ├── reports/
 │   ├── 01-manchester-airports-group-fulcrumsec.md
 │   ├── 02-apt28-nato-targets.md
@@ -55,10 +55,10 @@ The material is based on open-source reporting, leak-site claims, vendor stateme
 
 ---
 
-## The Bomb
+## Featured Analysis
 
-**[The Soft Underbelly of Aviation](bomba/soft-underbelly-aviation-2026.md)**  
-Original analysis of the MAG Iterable client-side keys vector, the multi-year exposure window, and the structural shift of risk from operational systems to marketing and ancillary platforms — including the overlap with the ongoing Amadeus biometric rollout on the same airports.
+**[The Soft Underbelly of Aviation](analysis/soft-underbelly-aviation-2026.md)**  
+Original analysis of the MAG Iterable client-side keys vector, the multi-year exposure window (2022–2026), and the structural shift of risk from operational systems to marketing and ancillary platforms — including the overlap with the ongoing Amadeus biometric rollout on the same airports.
 
 ---
 
