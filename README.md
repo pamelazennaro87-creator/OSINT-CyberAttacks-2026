@@ -28,7 +28,8 @@ The material is based on open-source reporting, leak-site claims, vendor stateme
 ```
 ├── README.md
 ├── analysis/
-│   └── soft-underbelly-aviation-2026.md   ← Deep-dive analysis + prevention
+│   ├── soft-underbelly-aviation-2026.md
+│   └── unknowable-exposure-window-mag-2022-2026.md   ← Original methodology
 ├── reports/
 │   ├── 01-manchester-airports-group-fulcrumsec.md
 │   ├── 02-apt28-nato-targets.md
@@ -55,11 +56,13 @@ The material is based on open-source reporting, leak-site claims, vendor stateme
 
 ---
 
-## Featured Analysis
+## Featured Analyses
 
 **[The Soft Underbelly of Aviation](analysis/soft-underbelly-aviation-2026.md)**  
+Systemic risk analysis, Amadeus overlap, risk scorecard and prevention checklist.
 
-Original analysis of the MAG Iterable client-side keys vector, the multi-year exposure window (2022–2026), systemic risk patterns, Amadeus biometric overlap, risk scorecard for major European airports, technical appendix on Iterable keys, and a concrete prevention checklist.
+**[The Unknowable Exposure Window](analysis/unknowable-exposure-window-mag-2022-2026.md)**  
+Original reconstruction of the 4-year MAG Iterable key exposure timeline and a practical, reproducible public methodology for detecting similar client-side secrets on other airport websites. Focused on prevention and measurement.
 
 ---
 
