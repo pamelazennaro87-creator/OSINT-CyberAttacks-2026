@@ -27,6 +27,8 @@ The material is based on open-source reporting, leak-site claims, vendor stateme
 
 ```
 ├── README.md
+├── bomba/
+│   └── soft-underbelly-aviation-2026.md   ← ORIGINAL ANALYSIS (the bomb)
 ├── reports/
 │   ├── 01-manchester-airports-group-fulcrumsec.md
 │   ├── 02-apt28-nato-targets.md
@@ -50,6 +52,13 @@ The material is based on open-source reporting, leak-site claims, vendor stateme
 | Star Aviation (Storm) | Sep 2026 | Ransomware claim | Boeing/Airbus supplier |
 | CyberLogitec maritime cascade | Oct 2026 | Possible supply-chain | 38 companies claimed |
 | Collins Aerospace MUSE (context) | Sep 2025 | Ransomware | Major European airport check-in disruption |
+
+---
+
+## The Bomb
+
+**[The Soft Underbelly of Aviation](bomba/soft-underbelly-aviation-2026.md)**  
+Original analysis of the MAG Iterable client-side keys vector, the multi-year exposure window, and the structural shift of risk from operational systems to marketing and ancillary platforms — including the overlap with the ongoing Amadeus biometric rollout on the same airports.
 
 ---
 
