@@ -17,7 +17,7 @@ This repository collects structured OSINT findings on significant cyber incident
 - Ransomware groups (INC, FulcrumSec, Storm, etc.)
 - State-sponsored activity (APT28)
 - Technical IOCs (IPs, domains, TTPs)
-- Risk analysis and prevention guidance for critical infrastructure operators
+- Risk analysis, attribution support and prevention guidance
 
 The material is based on open-source reporting, leak-site claims, vendor statements and technical analyses available as of late October 2026.
 
@@ -29,7 +29,8 @@ The material is based on open-source reporting, leak-site claims, vendor stateme
 ├── README.md
 ├── analysis/
 │   ├── soft-underbelly-aviation-2026.md
-│   └── unknowable-exposure-window-mag-2022-2026.md   ← Original methodology
+│   ├── unknowable-exposure-window-mag-2022-2026.md
+│   └── attribution-hunting-guide-2026.md   ← Practical attribution + hunting
 ├── reports/
 │   ├── 01-manchester-airports-group-fulcrumsec.md
 │   ├── 02-apt28-nato-targets.md
@@ -47,22 +48,25 @@ The material is based on open-source reporting, leak-site claims, vendor stateme
 
 | Incident | Date | Type | Impact |
 |----------|------|------|--------|
-| Manchester Airports Group (FulcrumSec) | Aug 2026 | Data theft / Extortion | 8.7M records, WiFi/parking/lounge data |
-| APT28 (Fancy Bear) | Jul–Oct 2026 | Espionage | NATO naval shipbuilder, military aviation engines |
-| INC Ransomware + Phantom | Exposed Oct 2026 | Ransomware / AI-assisted | 62+ orgs, FortiClient EMS, SimpleHelp |
+| Manchester Airports Group (FulcrumSec) | Aug 2026 | Data theft / Extortion | 8.7M records |
+| APT28 (Fancy Bear) | Jul–Oct 2026 | Espionage | NATO naval + military aviation |
+| INC Ransomware + Phantom | Exposed Oct 2026 | Ransomware / AI-assisted | 62+ orgs |
 | Star Aviation (Storm) | Sep 2026 | Ransomware claim | Boeing/Airbus supplier |
-| CyberLogitec maritime cascade | Oct 2026 | Possible supply-chain | 38 companies claimed |
-| Collins Aerospace MUSE (context) | Sep 2025 | Ransomware | Major European airport check-in disruption |
+| CyberLogitec maritime cascade | Oct 2026 | Possible supply-chain | 38 companies |
+| Collins Aerospace MUSE (context) | Sep 2025 | Ransomware | European airport check-in disruption |
 
 ---
 
 ## Featured Analyses
 
 **[The Soft Underbelly of Aviation](analysis/soft-underbelly-aviation-2026.md)**  
-Systemic risk analysis, Amadeus overlap, risk scorecard and prevention checklist.
+Systemic risk, Amadeus overlap, scorecard and prevention checklist.
 
 **[The Unknowable Exposure Window](analysis/unknowable-exposure-window-mag-2022-2026.md)**  
-Original reconstruction of the 4-year MAG Iterable key exposure timeline and a practical, reproducible public methodology for detecting similar client-side secrets on other airport websites. Focused on prevention and measurement.
+4-year MAG key exposure timeline + public detection methodology.
+
+**[Attribution Support & Hunting Guide](analysis/attribution-hunting-guide-2026.md)**  
+Practical indicators, contact points, behavioural fingerprints and hunting recommendations for FulcrumSec, Phantom/INC affiliates and APT28 HOOKEDGE. Designed to help both attribution research and defensive prevention.
 
 ---
 
