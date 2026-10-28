@@ -17,7 +17,7 @@ This repository collects structured OSINT findings on significant cyber incident
 - Ransomware groups (INC, FulcrumSec, Storm, etc.)
 - State-sponsored activity (APT28)
 - Technical IOCs (IPs, domains, TTPs)
-- Risk analysis for critical infrastructure operators
+- Risk analysis and prevention guidance for critical infrastructure operators
 
 The material is based on open-source reporting, leak-site claims, vendor statements and technical analyses available as of late October 2026.
 
@@ -28,7 +28,7 @@ The material is based on open-source reporting, leak-site claims, vendor stateme
 ```
 ├── README.md
 ├── analysis/
-│   └── soft-underbelly-aviation-2026.md   ← Original deep-dive analysis
+│   └── soft-underbelly-aviation-2026.md   ← Deep-dive analysis + prevention
 ├── reports/
 │   ├── 01-manchester-airports-group-fulcrumsec.md
 │   ├── 02-apt28-nato-targets.md
@@ -58,7 +58,8 @@ The material is based on open-source reporting, leak-site claims, vendor stateme
 ## Featured Analysis
 
 **[The Soft Underbelly of Aviation](analysis/soft-underbelly-aviation-2026.md)**  
-Original analysis of the MAG Iterable client-side keys vector, the multi-year exposure window (2022–2026), and the structural shift of risk from operational systems to marketing and ancillary platforms — including the overlap with the ongoing Amadeus biometric rollout on the same airports.
+
+Original analysis of the MAG Iterable client-side keys vector, the multi-year exposure window (2022–2026), systemic risk patterns, Amadeus biometric overlap, risk scorecard for major European airports, technical appendix on Iterable keys, and a concrete prevention checklist.
 
 ---
 
