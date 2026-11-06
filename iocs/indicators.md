@@ -46,3 +46,19 @@ No public C2 IPs or malware hashes widely published in open sources at time of c
 ## Notes
 - IPs on cloud/VPS providers may be reassigned. Always corroborate with current network telemetry.
 - Additional indicators may appear in future technical reports.
+
+
+## Provenance and confidence addendum — 2026-11-06
+
+**Important:** the role labels in the tables above (for example “Main hub”, “Build & deployment”, “Operator VM”, “Staging / pivot”, “C2” and “panel”) are not independently substantiated in this file by per-indicator source citations. Until each row is linked to the exact source passage and observation window, treat these labels as **reported/analyst-described context**, not independently verified infrastructure roles.
+
+For every IOC, add and maintain:
+- exact source URL and publisher;
+- publication date and retrieval date;
+- first_seen / last_seen as stated by the source (leave blank if not disclosed);
+- observation context and whether the source directly observed it or repeated another report;
+- confidence and rationale;
+- hosting/ASN context separately from actor attribution;
+- expiry/revalidation date and current status.
+
+Do not infer common control from shared ASN, provider, IP range, tool family, or temporal proximity alone. Cloud/VPS addresses may be reassigned. Validate indicators against current telemetry before blocking; preserve the source's exact attribution language. The email address in the related section is an identifier published by third parties, not proof of ownership or operator identity; retain it only if it is necessary to the defensive research purpose and directly sourced.
