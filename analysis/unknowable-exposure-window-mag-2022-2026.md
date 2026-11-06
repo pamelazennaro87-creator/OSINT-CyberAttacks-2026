@@ -122,3 +122,20 @@ The detection methodology above is designed so that the next window does not hav
 - Wayback Machine historical JavaScript observations as reported by Helme
 
 *This document is published solely for defensive research and prevention purposes.*
+
+
+---
+
+## Evidentiary qualification — reviewed 2026-11-06
+
+This document is an analytical reconstruction based on public reporting and historical web observations; it is not a forensic audit of MAG or Iterable systems. The reported June/July 2022–August 2026 window should be attributed to Scott Helme's reconstruction and the reporting that describes it. The statement that a person viewing the page could have extracted the keys describes a technical possibility, not evidence that a particular third party did so.
+
+Keep these propositions separate:
+1. **Observed/reported exposure:** the key material appeared in archived public frontend JavaScript, as described by the cited researcher.
+2. **Privilege assessment:** reported key permissions and endpoint reach must be attributed to the source and the relevant Iterable documentation/version.
+3. **Potential capability:** a key with broad permissions could enable certain API operations; capability is not proof those operations occurred.
+4. **Actual use or data access:** requires service-side logs, forensic evidence or a specific independently sourced disclosure. Public exposure alone does not establish extraction, use, exfiltration or impact.
+
+The current source list is bibliographic rather than claim-complete. Before presenting the exact duration, endpoint count, privilege scope or “unknowable” conclusion as established fact, add direct links, publication dates and claim-to-source mapping for Helme's analysis, MAG's 27 August disclosure, Iterable's applicable key documentation and the relevant archived captures. Record gaps in log retention as unknown unless confirmed by MAG/Iterable or a primary technical source.
+
+**Safer conclusion:** public historical captures may establish a period during which credentials were exposed to unauthenticated visitors; they cannot, by themselves, determine who copied them, whether they were used, or whether customer data was accessed.
